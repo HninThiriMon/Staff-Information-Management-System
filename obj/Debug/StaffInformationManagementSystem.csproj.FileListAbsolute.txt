@@ -1,0 +1,286 @@
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\ApplicationInsights.config
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\csc.exe
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\vbc.exe
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll.config
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.pdb
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Antlr3.Runtime.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\EntityFramework.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.Web.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Newtonsoft.Json.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Helpers.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Mvc.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Optimization.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Razor.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.WebPages.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\WebGrease.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\EntityFramework.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.Web.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Helpers.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Mvc.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Optimization.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.Razor.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.WebPages.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Antlr3.Runtime.pdb
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\bin\Newtonsoft.Json.xml
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.dll
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.pdb
+E:\SIMS\StaffInformationManagementSystem\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.csprojResolveAssemblyReference.cache
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\ApplicationInsights.config
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\csc.exe
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\vbc.exe
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll.config
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.pdb
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Antlr3.Runtime.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\EntityFramework.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.Web.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Newtonsoft.Json.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Helpers.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Mvc.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Optimization.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Razor.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.WebPages.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\WebGrease.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\EntityFramework.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.Web.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Helpers.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Mvc.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Optimization.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.Razor.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.WebPages.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Antlr3.Runtime.pdb
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\bin\Newtonsoft.Json.xml
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.dll
+E:\SIMS\StaffInformationManagementSystem - Copy\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.pdb
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\ApplicationInsights.config
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\csc.exe
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\vbc.exe
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll.config
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.pdb
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Antlr3.Runtime.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Web.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Newtonsoft.Json.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Helpers.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Mvc.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Optimization.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Razor.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\WebGrease.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Web.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Helpers.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Mvc.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Optimization.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Razor.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Antlr3.Runtime.pdb
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Newtonsoft.Json.xml
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.csprojResolveAssemblyReference.cache
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.dll
+E:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.pdb
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\ApplicationInsights.config
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\csc.exe
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\vbc.exe
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll.config
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.pdb
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Antlr3.Runtime.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Web.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Newtonsoft.Json.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Helpers.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Mvc.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Optimization.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Razor.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\WebGrease.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Web.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Helpers.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Mvc.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Optimization.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Razor.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Antlr3.Runtime.pdb
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Newtonsoft.Json.xml
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.csprojResolveAssemblyReference.cache
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.dll
+F:\SIMS\photo\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.pdb
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\ApplicationInsights.config
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\csc.exe
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\vbc.exe
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll.config
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\StaffInformationManagementSystem.pdb
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Antlr3.Runtime.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Web.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Newtonsoft.Json.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Helpers.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Mvc.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Optimization.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Razor.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\WebGrease.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.Web.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Helpers.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Mvc.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Optimization.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.Razor.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Antlr3.Runtime.pdb
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\bin\Newtonsoft.Json.xml
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.csprojAssemblyReference.cache
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.csproj.CoreCompileInputs.cache
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.csproj.CopyComplete
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.dll
+D:\StaffInformationManagementSystem - HninThiriMon\StaffInformationManagementSystem\obj\Debug\StaffInformationManagementSystem.pdb

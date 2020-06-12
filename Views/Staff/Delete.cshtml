@@ -1,0 +1,233 @@
+﻿
+@model StaffInformationManagementSystem.Models.Staff
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Are you sure want to Delete ! ";
+}
+
+<link href="~/Web_Style/Stylesheet/StaffDetail.css" rel="stylesheet" />
+
+<button type="button" rel="tooltip" title="Back to list" class="btn btn-primary btn-link btn-sm">
+    <a href="@Url.Action("Index", "Staff")" class="nav-link">
+        <i class="material-icons">content_paste</i>
+        <p>List</p>
+    </a>
+</button>
+<button type="button" rel="tooltip" title="Modify" class="btn btn-primary btn-link btn-sm">
+
+    <a href=" @Url.Action("Edit", "Staff", new { id = Model.Id }) " class="nav-link">
+        <i class="material-icons">edit</i>
+        <p>Modify</p>
+    </a>
+</button>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title mb-4">
+                        <div class="d-flex justify-content-start">
+                            <div class="image-container">
+                                <img src="http://placehold.it/150x150" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
+                                <div class="middle">
+                                    <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />
+                                    <input type="file" style="display: none;" id="profilePicture" name="file" />
+                                </div>
+                                @*@Html.DisplayNameFor(model => model.Photo)
+                                    @Html.DisplayFor(model => model.Photo)*@
+                            </div>
+                            <div class="userData ml-3">
+                                <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold;"><a href="javascript:void(0);">Are you sure you want to Delete this?</a></h2>
+                                <h6 class="d-block"><a href="javascript:void(0)">@Html.DisplayFor(model => model.Name) 's Data Details</a></h6>
+                                <h6 class="d-block"><a href="javascript:void(0)">@Html.DisplayFor(model => model.Email)</a> </h6>
+                                @using (Html.BeginForm())
+                                {
+                                    @*@Html.AntiForgeryToken()*@
+
+                                    <div class="form-actions no-color">
+                                        <input type="submit" value="Delete" class="btn btn-danger" />
+                                                                              
+                                    </div>
+                                }
+                            </div>
+                            <div class="ml-auto">
+                                <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="basicInfo-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basicInfo" aria-selected="true">Basic Info</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="connectedServices-tab" data-toggle="tab" href="#connectedServices" role="tab" aria-controls="connectedServices" aria-selected="false">Connected Services</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content ml-1" id="myTabContent">
+                                <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Name)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Name)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;"> @Html.DisplayNameFor(model => model.Email)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Email)
+                                        </div>
+                                    </div>
+                                    <hr />
+
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Phone)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Phone)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.DOB)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.DOB)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.NRC)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.NRC)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Fax)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Fax)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Internet)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Internet)
+                                        </div>
+                                    </div>
+
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Remark)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Remark)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.AddressType)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.AddressType)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Address)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Address)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.City)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.City)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.Country)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.Country)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.PostalCode)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.PostalCode)
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                 
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">@Html.DisplayNameFor(model => model.CreatedBy)</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            @Html.DisplayFor(model => model.CreatedBy)
+                                        </div>
+                                    </div>
+                                    <hr />
+                                  
+                                </div>
+                                <div class="tab-pane fade" id="connectedServices" role="tabpanel" aria-labelledby="ConnectedServices-tab">
+                                    Facebook, Google, Twitter Account that are connected to this account
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Web_Style/Scripts/StaffDetail.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+

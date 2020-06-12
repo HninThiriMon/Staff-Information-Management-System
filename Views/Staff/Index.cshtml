@@ -1,0 +1,133 @@
+﻿@model IEnumerable<StaffInformationManagementSystem.Models.Staff>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "List of Employees Data At Ace Data System";
+}
+
+
+
+@using (Html.BeginForm())
+{
+
+    <button type="button" rel="tooltip" title="Add Staff" class="btn btn-primary btn-link btn-sm">
+        <a href="@Url.Action("Create", "Staff")" class="nav-link">
+            <i class="material-icons">person</i>
+            <p>Add Staff</p>
+        </a>
+
+
+        @*<a href="#addModal" data-toggle="modal">
+            <i class="material-icons">edit</i>
+        </a>*@
+    </button>
+
+    @*<p>
+            @Html.ActionLink("Create New", "Create")
+        </p>*@
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header card-header-primary">
+                            <h3 class="card-title "> Staff Information List </h3>
+                            <p class="card-category">All of Employees Data At Ace Data System</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table" id="myTable">
+                                    <thead class=" text-primary">
+                                        <tr>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.Name)
+                                            </th>
+
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.Email)
+                                            </th>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.Phone)
+                                            </th>
+
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.Internet)
+                                            </th>
+
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.CreatedBy)
+                                            </th>
+
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Name)
+                                                </td>
+
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Email)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Phone)
+                                                </td>
+
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Internet)
+                                                </td>
+
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                                                </td>
+
+                                                @** <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit" id="staffDetail" class="btn btn-primary btn-link btn-sm">
+                                                            <a href="#detailModal" data-toggle="modal">
+                                                                <i class="material-icons">content_paste</i>
+                                                            </a>
+                                                        </button>
+
+                                                        <button type="button" rel="tooltip" title="Edit" id="staffEdit" class="btn btn-primary btn-link btn-sm">
+                                                            <a href="#editModal" data-toggle="modal">
+                                                                <i class="material-icons">edit</i>
+                                                            </a>
+                                                        </button>
+
+                                                        <button type="button" rel="tooltip" title="Remove" id="staffDelete" class="btn btn-danger btn-link btn-sm">
+                                                            <a href="" data-toggle="modal">
+
+                                                                <i class="material-icons">close</i>
+                                                            </a>
+                                                        </button>
+                                                    </td>*@
+
+                                                <td>
+                                                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                                </td>
+                                            </tr>
+                                        }
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+}
+
+
+
+

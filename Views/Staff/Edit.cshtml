@@ -1,0 +1,307 @@
+﻿@model StaffInformationManagementSystem.Models.Staff
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Modify staff Information ";
+}
+
+
+<link href="~/Web_Style/Stylesheet/StaffDetail.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm())
+{
+    @*@Html.AntiForgeryToken()*@
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <button type="button" rel="tooltip" title="Back to list" class="btn btn-primary btn-link btn-sm">
+            <a href="@Url.Action("Index", "Staff")" class="nav-link">
+                <i class="material-icons">content_paste</i>
+                <p>List</p>
+            </a>
+        </button>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title mb-4">
+                                <div class="d-flex justify-content-start">
+                                    <div class="image-container">
+                                        <img src="http://placehold.it/150x150" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
+                                        <div class="middle">
+                                            <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />
+                                            <input type="file" style="display: none;" id="profilePicture" name="file" />
+                                        </div>
+                                        @*@Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "bmd-label-floating" })
+                                            @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })*@
+                                    </div>
+                                    <div class="userData ml-3">
+                                        <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="javascript:void(0);">@Html.DisplayFor(model => model.Name) 's Data Details</a></h2>
+                                        <h6 class="d-block"><a href="javascript:void(0)">@Html.DisplayFor(model => model.Email)</a> </h6>
+                                        <h6 class="d-block"><a href="javascript:void(0)">@Html.DisplayFor(model => model.Phone)</a></h6>
+                                       
+                                    </div>
+                                    <div class="ml-auto">
+                                        <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="basicInfo-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basicInfo" aria-selected="true">Basic Info</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="connectedServices-tab" data-toggle="tab" href="#connectedServices" role="tab" aria-controls="connectedServices" aria-selected="false">Connected Services</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content ml-1" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Fax, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Fax, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Fax, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Internet, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Internet, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Internet, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Remark, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Remark, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Remark, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.DOB, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.DOB, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.DOB, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.NRC, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.NRC, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.NRC, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Remark, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.AddressType, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.AddressType, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.AddressType, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <hr />
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.Country, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.PostalCode, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.PostalCode, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.PostalCode, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+
+                                           
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    @Html.LabelFor(model => model.CreatedBy, htmlAttributes: new { @class = "bmd-label-floating" })
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    @Html.EditorFor(model => model.CreatedBy, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.CreatedBy, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <hr />
+
+                                          
+
+                                            <div class="row">
+                                                <div class="col-sm-4 col-md-10 col-1">
+                                                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
+
+                                                    <div class="clearfix"></div>
+                                                    @*<input type="submit" value="Save" class="btn btn-default" />*@
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="tab-pane fade" id="connectedServices" role="tabpanel" aria-labelledby="ConnectedServices-tab">
+                                            Facebook, Google, Twitter Account that are connected to this account
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+
+            $(document).ready(function () {
+                $imgSrc = $('#imgProfile').attr('src');
+                function readURL(input) {
+
+                    if (input.files && input.files[0]) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            $('#imgProfile').attr('src', e.target.result);
+                        };
+
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                }
+                $('#btnChangePicture').on('click', function () {
+                    // document.getElementById('profilePicture').click();
+                    if (!$('#btnChangePicture').hasClass('changing')) {
+                        $('#profilePicture').click();
+                    }
+                    else {
+                        // change
+                    }
+                });
+                $('#profilePicture').on('change', function () {
+                    readURL(this);
+                    $('#btnChangePicture').addClass('changing');
+                    $('#btnChangePicture').attr('value', 'Confirm');
+                    $('#btnDiscard').removeClass('d-none');
+                    // $('#imgProfile').attr('src', '');
+                });
+                $('#btnDiscard').on('click', function () {
+                    // if ($('#btnDiscard').hasClass('d-none')) {
+                    $('#btnChangePicture').removeClass('changing');
+                    $('#btnChangePicture').attr('value', 'Change');
+                    $('#btnDiscard').addClass('d-none');
+                    $('#imgProfile').attr('src', $imgSrc);
+                    $('#profilePicture').val('');
+                    // }
+                });
+            });
+        </script>
+
+
+    </div>
+
+
+
+
+
+
+}
+
+@*@RenderSection("scripts", required: false)
+    @section scripts {
+        <script type="text/javascript">alert('hello');</script>
+    }*@
